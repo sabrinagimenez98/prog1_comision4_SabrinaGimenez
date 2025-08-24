@@ -73,7 +73,8 @@ print(f"Tu altura es {altura} pero si fuera el cuadruple seria {alto} y si fuera
 
 #15. Crea una variable que contenga tu nombre completamente en mayúsculas. Después 
 #transfórmalo todo en minúsculas con algún método o función de Python.
-nombreMayu=str(input("Dime tu nombre: "))
+text=str(input("Dime tu nombre: "))
+nombreMayu=text 
 nomMayuscula = nombreMayu.upper()
 nomMinuscula = nombreMayu.lower()
 print("Tu nombre en Mayuscula es {nomMayuscula}")
@@ -81,5 +82,6 @@ print("Tu nombre en Minuscula es {nomMinuscula}")
 
 #16. Por último, con la variable con el nombre en mayúsculas, aplica un método parecido 
 #para que se transforme todo en minúsculas excepto la primera letra.
-nombreformal= nomMinuscula.capitalize()
+text2=nomMayuscula
+nombreformal= text2.capitalize()
 print("Normalmente seria {nombreformal}")
