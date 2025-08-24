@@ -85,5 +85,3 @@ print("Tu nombre en Minuscula es {nomMinuscula}")
 text2=nomMayuscula
 nombreformal= text2.capitalize()
 print("Normalmente seria {nombreformal}")
-
-#Probando git
